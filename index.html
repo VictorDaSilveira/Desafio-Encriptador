@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Encriptador</title>
+  </head>
+    <body>
+        <header class="cabecalho">
+          <img class="logoalura" src="./assets/logo alura.png" alt="logo alura">
+            
+        </header>
+        
+        <main>
+    <section>
+      <textarea class="textarea" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+      <div class="informacao"><img class="ponto__exclamacao" src="./assets/bi_exclamation-circle-fill.png"> Apenas letras minúsculas e sem acentos.</div>
+         <div class="botoes">
+          <button class="btn__criptografar" onclick="btnEncriptar()">Criptografar</button>
+          <button class="btn__desencriptografar" onclick="btnDesencriptar()">Desencriptografar</button>
+         </div>
+    </section>
+
+    <section>
+      <textarea class="mensagem" cols="20" rows="10"> </textarea>
+          
+          <button class="btn__copiar" onclick="copiarTexto()">Copiar</button>
+    </section>
+  </main>
+<script src="script.js"></script>
+  </body>
+    
+  <footer class="rodape">
+    Desenvolvido por Victor Silveira
+    <div class="icones">
+      <a href="https://github.com/VictorDaSilveira/">
+        <img class="icone__github" src="./assets/github.png" alt="logo do github">
+      </a>
+      <a href="www.linkedin.com/in/victorsilveiraprogramação">
+        <img class="icone__linkedin" src="./assets/linkedin.png">
+      </a>
+    </div>
+    
+    </footer>
