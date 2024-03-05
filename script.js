@@ -12,6 +12,7 @@ function btnEncriptar() {
     const textoEncriptado = encriptar(textarea.value);
     mensagem.value = textoEncriptado;
     textarea.value = "";
+    document.querySelector(".mensagem").style.backgroundImage = "none";
      
 }
 
@@ -33,6 +34,7 @@ function btnDesencriptar() {
     const textoDesencriptado = desencriptar(textarea.value);
     mensagem.value = textoDesencriptado;
     textarea.value = "";
+    document.querySelector(".mensagem").style.backgroundImage = "none";
     
 }
 
